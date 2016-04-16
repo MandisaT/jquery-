@@ -29,15 +29,12 @@ that checks a form's fields for validity
 // meaning this function will stop your code , 
 // pause the code where you want to pause it 
  //an example 
-  var x=2;
-
-  function turnXinto10(){
-x=10;
-
-  }
-debugger;
-  turnXinto10()
-  }
+var x=2;
+function turnXinto10(){
+	x=10;
+	debugger;
+  	turnXinto10()
+}
 
 // subtraction
 // by commenting code out to see if you can find your answer 
